@@ -1,0 +1,6 @@
+u = input().strip("[").strip("]").split(", ")
+v = input().strip("[").strip("]").split(", ")
+t0 = float(u[0]) + float(v[0])
+t1 = float(u[1]) + float(v[1])
+t2 = float(u[2]) + float(v[2])
+print("[" + u[0] + ", " + u[1] + ", " + u[2] + "] + [" + v[0] + ", " + v[1] + ", " + v[2] + "] = [" + str(t0) + ", " + str(t1) + ", " + str(t2) + "]")
